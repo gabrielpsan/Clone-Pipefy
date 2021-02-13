@@ -3,15 +3,18 @@ import styled from 'styled-components';
 export const Container = styled.div`
     height: 80px;
     padding: 0 30px;
-    background: #7159c1;
+    background: #F6D311;
     color: #FFFFFF;
     display: flex;
     justify-content: space-between;
 
     display: flex;
     align-items: center;
-    h1 {
-
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: bolder;
     }
   
 `;

@@ -5,7 +5,7 @@ import avatar from '../../assets/logo.png';
 export default function Header() {
     return (
         <Container>
-            <h1>RocketFy</h1>
+            <a href="/">Clone PipeFy</a>
             <BoxInfo>
                 <img src={avatar} alt=""/>
                 <p>Ambiente Sólido</p>
