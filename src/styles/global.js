@@ -15,7 +15,7 @@ export default createGlobalStyle `
 
     body {
         font: 14px 'Roboto', sans-serif;
-        background: #ECF1F8;
+        background: ${props => props.theme};
         color: #333;
         -webkit-font-smoothing: antialised !important;
     }

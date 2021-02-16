@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, BoxInfo } from './styles';
-import avatar from '../../assets/logo.png';
+import avatar from '../../assets/Capturar.PNG';
 
 export default function Header() {
     return (
@@ -8,7 +8,7 @@ export default function Header() {
             <a href="/">Clone PipeFy</a>
             <BoxInfo>
                 <img src={avatar} alt=""/>
-                <p>Ambiente Sólido</p>
+                <a href="/perfil">Gabriel</a>
             </BoxInfo>
         </Container>
     )

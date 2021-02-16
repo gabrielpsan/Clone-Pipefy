@@ -70,11 +70,19 @@ export const OptionsMenu = styled.div`
         display: flex;
         align-items: center;
         font-size: 18px;
+        width: 90%;
         color: #888;
         font-weight: 450;
         margin-bottom: 15px;
         cursor: pointer;
         text-decoration: none;
+        transition: 0.5s;
+    }
+
+    a:hover {
+        color: #F6D311;
+        font-size: 20px;
+        width: 70%;
     }
 `
 

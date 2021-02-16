@@ -23,10 +23,18 @@ export const BoxInfo = styled.div`
     margin-left: 30px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     img {
-        width: 45px;
-        height: 25px;
-        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
     }
 `
